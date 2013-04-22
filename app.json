@@ -1,0 +1,47 @@
+{
+  "name": "Fileup",
+  "indexHtmlPath": "index.html",
+  "url": "http://http://192.168.1.2/File-uploading-component-for-Sencha-Touch/demo/index.html",
+  "js": [
+    {
+      "path": "touch/sencha-touch.js"
+    },
+    {
+      "path": "app.js",
+      "bundle": true,
+      "update": "full"
+    }
+  ],
+  "css": [
+    {
+      "path": "resources/css/app.css",
+      "update": "full"
+    }
+  ],
+  "appCache": {
+    "cache": [
+      "index.html"
+    ],
+    "network": [
+      "*"
+    ],
+    "fallback": []
+  },
+  "resources": [
+    "resources/images",
+    "resources/icons",
+    "resources/startup",
+    "src/php/getfile.php"
+  ],
+  "ignore": [
+    ".svn$"
+  ],
+  "archivePath": "archive",
+  "buildOptions": {
+    "product": "touch",
+    "minVersion": 3,
+    "debug": false,
+    "logger": "yes"
+  },
+  "id": "eea3f5f0-db68-11e1-a3a7-2dcbfe332c8d"
+}
